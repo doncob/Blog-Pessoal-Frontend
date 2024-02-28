@@ -4,7 +4,7 @@ import '../login/login.css';
 import { Link, useNavigate } from 'react-router-dom';
 
 import { AuthContext } from '../../contexts/AuthContext';
-import UsuarioLogin from '../../models/usuarioLogin';
+import UsuarioLogin from '../../../src/models/usuarioLogin';
 import { RotatingLines } from 'react-loader-spinner';
 
 function Login() {
